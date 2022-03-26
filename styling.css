@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+
+.first-section {
+    background-color: #e4f9f5;
+    width: 100%;
+}
+
+.second-section {
+    background-color: gray;
+    height: 200px;
+    width: 100%;
+}
+
+.third-section {
+    background-color: #e4f9f5;
+    height: 200px;
+    width: 100%;
+}
+
+.first-section > h1 {
+    margin-top: 0px;
+}
+
+.second-section > h1 {
+    margin-top: 0px;
+}
+
+.third-section > h1 {
+    margin-top: 0px;
+}
