@@ -7,26 +7,39 @@ body {
 h1 {
     margin-top: 0;
     font-family: 'Syne Mono', monospace;
+    color:#66BFBF;
 }
 
 h2 {
     font-family: 'Merriweather', serif;
+    color:#66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Merriweather', serif;
+    color:#11999E;
+}
+
+a {
+    color:#11999E;
 }
 
 .first-section {
     background-color: #e4f9f5;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     position: relative;
     padding-top:30vh;
+    text-align: center;
 }
 
 .introduce {
-    font-size: 50px;
+    font-size: 500%;
+}
+
+.identity {
+    margin-bottom:10vh;
 }
 
 .top-cloud {
@@ -42,8 +55,16 @@ h3 {
 }
 
 .mountain-image {
-    position:relative;
-    top:10vh;
+    display:block;
+    justify-content: center;
+    position:absolute;
+    bottom:0;
+    left:32vw;
+    width: 35vw;
+    height:auto;
+    max-width: 40vw;
+    max-height: auto;
+    margin-top: 10vh;
 }
 
 .second-section {
@@ -51,6 +72,37 @@ h3 {
 
 .third-section {
 }
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width:50%;
+    text-align: left;
+}
+
+.skill-row p {
+    line-height: 2;
+}
+
+.coding-gif {
+    width: 25%;
+    float: left;
+    margin-right:30px;
+}
+
+.github-gif {
+    width: 25%;
+    float: right;
+    margin-left:30px;
+}
+
+.coding-gif-desc {
+    clear:left;
+}
+
+.github-gif-desc {
+    clear:right;
+}
+
 
 .first-section > h1 {
     margin-top: 0px;
